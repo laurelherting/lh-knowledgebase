@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "lhknowledgebase-20181217122808-authRole",
+            "UnauthRoleArn": "arn:aws:iam::992563817568:role/lhknowledgebase-20181217122808-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::992563817568:role/lhknowledgebase-20181217122808-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "lhknowledgebase-20181217122808-deployment",
+            "UnauthRoleName": "lhknowledgebase-20181217122808-unauthRole",
+            "StackName": "lhknowledgebase-20181217122808",
+            "StackId": "arn:aws:cloudformation:us-east-1:992563817568:stack/lhknowledgebase-20181217122808/e2b952c0-0231-11e9-a5f6-123ad236a92a"
+        }
+    }
+}

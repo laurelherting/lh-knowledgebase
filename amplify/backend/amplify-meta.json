@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "lhknowledgebase-20181217122808-authRole",
+			"UnauthRoleArn": "arn:aws:iam::992563817568:role/lhknowledgebase-20181217122808-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::992563817568:role/lhknowledgebase-20181217122808-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "lhknowledgebase-20181217122808-deployment",
+			"UnauthRoleName": "lhknowledgebase-20181217122808-unauthRole",
+			"StackName": "lhknowledgebase-20181217122808",
+			"StackId": "arn:aws:cloudformation:us-east-1:992563817568:stack/lhknowledgebase-20181217122808/e2b952c0-0231-11e9-a5f6-123ad236a92a"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/lhknowledgebase-20181217122808-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-17T19:31:12.256Z",
+			"output": {
+				"S3BucketSecureURL": "https://lhknowledgebase-20181217122924-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://lhknowledgebase-20181217122924-hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "lhknowledgebase-20181217122924-hostingbucket"
+			},
+			"lastPushDirHash": "V5YwVQDjoKl7CV77c7D91P2TfoI="
+		}
+	}
+}
